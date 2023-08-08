@@ -4,8 +4,9 @@ import java.util.Arrays;
 
 public class test {
     public static void main(String[] args) {
-        _04_binary_conversion test = new _04_binary_conversion();
-        int[] result = test.solution("1111111");
-        System.out.println(Arrays.toString(result));
+        _11_life_boats test = new _11_life_boats();
+        int[] people = {70, 80, 50};
+        int result = test.solution(people, 100);
+        System.out.println(result);
     }
 }
